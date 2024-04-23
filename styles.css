@@ -53,6 +53,8 @@ a {
     background-color: #0F6FA8;
     color: #ffffff;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+
 }
 
 /* Bottom left button */

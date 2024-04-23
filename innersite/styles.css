@@ -37,4 +37,8 @@ video {
     border-radius: 10px;
     color: aliceblue;
     font-weight: bold;
+    max-width: 40%; /* Maximum width for the text */
+    margin: 0 auto; /* Center the text horizontally */
+    word-spacing: 2px; /* Word spacing */
+    line-height: 1.5; /* Line spacing */
 }

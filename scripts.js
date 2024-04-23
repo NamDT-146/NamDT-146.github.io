@@ -1,7 +1,11 @@
-document.getElementById('buttonA').addEventListener('click', function() {
-    alert('You clicked Button A! 🌟');
+
+
+const button = document.getElementById("button1");
+
+button.addEventListener("mouseover", function() {
+  this.textContent = "NO";
 });
 
-document.getElementById('buttonB').addEventListener('click', function() {
-    alert('You clicked Button B! 🎉');
+button.addEventListener("mouseout", function() {
+  this.textContent = "YES";
 });

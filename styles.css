@@ -42,7 +42,7 @@ body {
     right: 0;
 }
 
-button {
+a {
     padding: 15px 30px;
     margin: 10px;
     font-size: 18px;
@@ -56,7 +56,7 @@ button {
 }
 
 /* Bottom left button */
-button:first-child {
+a:first-child {
     position: fixed;
 
     bottom: 50px;  /* Distance from the bottom */
@@ -64,14 +64,14 @@ button:first-child {
 }
 
 /* Bottom right button */
-button:last-child {
+a:last-child {
     position: fixed;
 
     bottom: 50px;  /* Distance from the bottom */
     right: 20px;   /* Distance from the right */
 }
 
-button:hover {
+a:hover {
     background-color: #3C75B7;
 }
 

@@ -1,27 +1,40 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('backimage.jpg'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+body, html {
+    height: 100%;
+    margin: 0;
     font-family: Arial, sans-serif;
 }
 
-button {
-    padding: 15px 30px;
-    margin: 10px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #007BFF;
-    color: #ffffff;
-    transition: background-color 0.3s ease;
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
-button:hover {
-    background-color: #0056b3;
+header h1 {
+    margin: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video-container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#typing-text {
+    position: absolute;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    backdrop-filter: blur(1px); /* Blurred background */
+    background-color: rgba(132, 50, 92, 0.275); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
 }

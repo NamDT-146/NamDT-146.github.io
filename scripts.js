@@ -1,6 +1,6 @@
 
 
-const button = document.getElementById("button1");
+const button = document.getElementById("button");
 
 button.addEventListener("mouseover", function() {
   this.textContent = "NO";

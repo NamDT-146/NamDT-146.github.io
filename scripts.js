@@ -10,5 +10,9 @@ button.addEventListener("mouseout", function() {
   this.textContent = "YES";
 });
 
+const button = document.getElementById("myButton");
 
+button.addEventListener("click", function() {
+  window.location.href = "https://namdt-146.github.io/innersite/";
+});
 
